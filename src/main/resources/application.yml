@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: frauddetector
+
+  data:
+    mongodb:
+      uri: ${MONGODB_URI}
+      database: fraud
+
+  kafka:
+    bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:localhost:9092}
+
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+
+    consumer:
+      group-id: fraud-consumer
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring.json.trusted.packages: com.vaibhav.fraud.model
+        spring.json.value.default.type: com.vaibhav.fraud.model.Transaction
+        spring.json.use.type.headers: false
+
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+      embedding:
+        options:
+          model: text-embedding-3-small
+
+app:
+  kafka:
+    topic: transactions

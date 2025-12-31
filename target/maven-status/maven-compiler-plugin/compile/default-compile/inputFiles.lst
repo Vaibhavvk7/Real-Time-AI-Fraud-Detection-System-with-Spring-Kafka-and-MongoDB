@@ -1,0 +1,11 @@
+/Users/vaibhavkejriwal/Desktop/fraud_analytics/fraud-detection/src/main/java/com/vaibhav/fraud/CustomerSeeder.java
+/Users/vaibhavkejriwal/Desktop/fraud_analytics/fraud-detection/src/main/java/com/vaibhav/fraud/FraudDetectionApplication.java
+/Users/vaibhavkejriwal/Desktop/fraud_analytics/fraud-detection/src/main/java/com/vaibhav/fraud/Runner.java
+/Users/vaibhavkejriwal/Desktop/fraud_analytics/fraud-detection/src/main/java/com/vaibhav/fraud/config/KafkaTopicConfig.java
+/Users/vaibhavkejriwal/Desktop/fraud_analytics/fraud-detection/src/main/java/com/vaibhav/fraud/kafka/TransactionConsumer.java
+/Users/vaibhavkejriwal/Desktop/fraud_analytics/fraud-detection/src/main/java/com/vaibhav/fraud/kafka/TransactionProducer.java
+/Users/vaibhavkejriwal/Desktop/fraud_analytics/fraud-detection/src/main/java/com/vaibhav/fraud/model/Customer.java
+/Users/vaibhavkejriwal/Desktop/fraud_analytics/fraud-detection/src/main/java/com/vaibhav/fraud/model/Transaction.java
+/Users/vaibhavkejriwal/Desktop/fraud_analytics/fraud-detection/src/main/java/com/vaibhav/fraud/repo/CustomerRepository.java
+/Users/vaibhavkejriwal/Desktop/fraud_analytics/fraud-detection/src/main/java/com/vaibhav/fraud/repo/TransactionRepository.java
+/Users/vaibhavkejriwal/Desktop/fraud_analytics/fraud-detection/src/main/java/com/vaibhav/fraud/service/EmbeddingGenerator.java
